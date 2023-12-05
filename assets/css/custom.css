@@ -8,6 +8,8 @@
   --main-font: 'Noto Sans', sans-serif;
 }
 
+/* GENERAL ELEMENTS */
+
 * {
   font-family: var(--main-font);
 }
@@ -38,15 +40,21 @@ li {
   display: inline-block;
 }
 
+/* PROFILE IMAGE */
+
 .profile-image {
   border-radius: 100%;
   width: 100%;
   height: 100%;
 }
 
+/* FONT WEIGHT */
+
 .fw-bold {
   font-size: 5rem;
 }
+
+/* STANTARD COLORS */
 
 .color-1 {
   color: var(--color-1);
@@ -60,6 +68,8 @@ li {
   color: var(--color-3);
 }
 
+/* STANTARD BACLGROUND-COLORS */
+
 .bg-color-1 {
   background-color: var(--color-1);
 }
@@ -71,6 +81,8 @@ li {
 .bg-color-3 {
   background-color: var(--color-3);
 }
+
+/* CUSTOM STYLES */
 
 .buttom-custom {
   background-color: var(--color-2) !important;
