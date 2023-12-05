@@ -28,7 +28,6 @@
 
 - HTML
 - CSS
-- JAVASCRIPT
 - BOOTSTRAP 5
 
 # :globe_with_meridians: Website
