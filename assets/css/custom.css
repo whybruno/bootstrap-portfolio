@@ -4,6 +4,7 @@
   --color-1: #000000;
   --color-2: #F14F1C;
   --color-3: #EAE8E7;
+  --color-4: RGBA(10,158,0,0.51);
   --main-font: 'Noto Sans', sans-serif;
 }
 
@@ -22,6 +23,11 @@ strong {
 
 a {
   text-decoration: none;
+  color: var(--color-3) !important;
+}
+
+a:hover {
+  color: var(--color-2) !important;
 }
 
 ul {
@@ -66,6 +72,17 @@ li {
   background-color: var(--color-3);
 }
 
-.image-custom {
-  background-size: cover;
+.buttom-custom {
+  background-color: var(--color-2) !important;
+  color: var(--color-1) !important;
+}
+
+.buttom-custom:hover {
+  border: 1px solid var(--color-1) !important;
+  box-shadow: 4px 4px var(--color-4) !important;
+  color: var(--color-1) !important;
+}
+
+.icon-custom:hover {
+  box-shadow: 4px 4px var(--color-4) !important;
 }
